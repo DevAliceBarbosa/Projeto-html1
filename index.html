@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>Primeiro projeto</title>
+</head>
+<body>
+    <header>
+        <h1>Entendimento sobre as aulas</h1>
+        <hr>
+
+        <ul>
+            <li><a href="#1">Apresentando o Curso</a></li>
+            <li><a href="#2">Ferramentas Utilizadas</a></li>
+            <li><a href="#3">Inspetor de Elementos</a></li>
+            <li><a href="#4">Estrutura Básica do HTML</a></li>
+            <li><a href="#5">Falando sobre Tags</a></li>
+            <li><a href="#6">Atributos das Tags</a></li>
+            <li><a href="#7">Textos</a></li>
+            <li><a href="#8">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#9">Links</a></li>
+        </ul>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2 id="1">Apresentando o Curso</h2>
+            <p>Nessa aula, apenas foi a introdução sobre como os assuntos serão abordados, não houve muito conteúdo para ser entendido</p>
+        </section>
+        <section>
+            <h2 id="2">Ferramentas Utilizadas</h2>
+            <p> Nessa aula aprendemos sobre como instalar o editor que usaremos para aprender
+                a fazer as páginas, que em nosso caso foi o <strong>VisualCode</strong>
+            </p>
+            <p>
+                Também foi mostrado sobre as extensões que poderiamos utilizar para otimizar nosso trabalho,
+                como o <i>live server</i> que serve para podermos observar as alterações que fazemos nos códigos de maneira rápida.
+                E há o <i>Emmet</i> mas ela já vem automáticamente no visual code.
+            </p>
+        </section>
+        <section>
+            <h2 id="3">Inspetor de Elementos</h2>
+            <p>
+                Nessa aula apenas aprendemos sobre uma ferramenta que há no Google Chrome, podendo ser observada se apertarmos
+                o botão <mark>F12</mark> ou indo no menú do navegador e depois em ferramentas, lá vai ter <mark>Ferramentas do Desenvolvedor</mark>. 
+                Essa ferramenta serve básicamente para que possamos observar como está a sintaxe de um site, toda a parte do HTML, como alterar alguns Elementos
+                e até mesmo partes do css.
+            </p>
+        </section>
+        <section>
+            <h2 id="4">Estrutura Básica do HTML</h2>
+            <p>
+                Já nessa aula, foi apresentado a sintaxe básica do HTML. A tag principal que fica envolta de todo o código é a <.html> <i>sem o ponto</i> 
+                depois temos as tags <.head> que seria a parte em que há algumas configurações possiveis da página, como o <.title> que fica dentro da head e serve para adicionar um titulo para a aba da página.
+                Depois há a <.body> que fica envolta de todo o escorpo da página, ou seja, tudo que fica visivel para o usuário fica dentro dessa tag
+            </p>
+            <p>
+                Para fecharmos uma tag apenas é necessário colocarmos um / antes do seu nome </.html> por exemplo.
+            </p>
+        </section>
+        <section>
+            <h2 id="5">Falando sobre Tags</h2>
+
+            <p>Nessa aula aprendemos sobre o funcionamento das Tags, que estão presentes no body <del>Ou seja,
+                é o que estará aparecendo para os usuários</del>
+            </p>
+            <p>
+                Ele ensinou tags que alteram o texto como a <.i> que o deixa em <i> itálico</i>
+                 e <.strong> que deixa o texto em <strong>negrito</strong>, também podemos combiná-los de acordo com nossa preferencia.
+            </p>
+            <p>
+                O professor também mostrou que algumas tags se fecham nelas mesmo, como a de input <del> para adicionar campos de interação com o usuário</del>  e img <del>serve para adicionar imagens na página</del>
+            </p>
+        </section>
+        <section>
+            <h2 id="6">Atributos das Tags</h2>
+            <p>
+                É exposto alguns atributos que podemos adicionar a certas tags no html
+            </p>
+            <ol>
+                <li>Id: que serve como identificador do elemento, muito utilizado para identificá-lo no javascript </li>
+                <li>Style: para adicionar uma formatação do css diretamente pelo html, como trocar cor, fonte, tamanho, borda...</li>
+                <li>Class: serve para que seja criado uma classe, onde no css facilitaria para alterar as tags dessa classe de uma vez, invés de alterar manualmente cada um dos elementos</li>
+                <li>type: atributo especifico da tag input, que serve para alterar o tipo do dado que o usuário poderia adicionar</li>
+                <li>src: atributo da tag img, que serve para adicionar o endereço da imagem, como o caminho que deve ser percorrido até encontrar a imagem</li>
+                <li>width: atributo da imagem para alterar a largura da imagem</li>
+            </ol>
+        </section>
+        <section>
+            <h2 id="7">Textos</h2>
+            <p>Aula sobre as principais tipografias do html:</p>
+                <p>Como os cabeçalhos, a familia dos hs, que vão do h1 até h6
+                    <h1>exemplo h1</h1>
+                    <h2>exemplo h2</h2>
+                    <h3>exemplo h3</h3>
+                    <h4>exemplo h4</h4>
+                    <h5>exemplo h5</h5>
+                    <h6>exemplo h6</h6>
+                </p>
+                <p>
+                    Há também a tag para paragrafo p bom para a organização do texto
+                </p>
+                <p> A tag que é utilizada para criar uma citação se chama blockquote, que fica dessa maneira no navegador
+                    
+                </p>
+                <blockquote>Desenvolvimento web é muito divertido</blockquote>
+            <p>
+                Algumas que serve para alterar diretamente o texto: u para tornar o texto <u>sublinhado</u>,
+                mark para colocar um <mark>marca-texto</mark>, texto sub-escrito como de equações é com a tag sup x<sup>2</sup>, 
+            </p>
+        </section>
+        <section>
+            <h2 id="8">Listas Ordenadas e não ordenadas</h2>
+            <p>Listas são bastantes utilizadas, como para criar nav-bar, as principais são listas ordenadas <sub><del>listas que precisam seguir alguma ordem</del></sub> e não ordenadas <sub><del>as que são muitos usados para menus, são representados com marcadores</del></sub></p>
+            <ul>
+                <li>Casa</li>
+                <li>maça</li>
+                <li>morango</li>
+            </ul>
+            <ol>
+                <li>Primeiro</li>
+                <li>segundo</li>
+                <li>terceiro</li>
+            </ol>
+        </section>
+        <section>
+            <h2 id="9">Links</h2>
+            <p>Nessa aula aprendi como fazer a ancoragem de links com a tag <.a>, colocamos o atributo href: que serve para refenciar e é especifico dessa tag. Também utilizei o atributo target="_blank": para abrir o link em uma nova aba 
+                <a href="https://www.linkedin.com/in/alice-da-silva-barbosa-dacgj" target="_blank">Meu perfil do linkedin</a>
+            </p>
+                
+        </section>
+
+        <small>ps. não utilizei a tag font, pois quando pesquisei sobre ela, dizia que não é compativel com o html5</small>
+    </main>
+    <footer>
+        <p style="color: blue;">Página desenvolvida por Alice da Silva Barbosa -- <abbr>asb</abbr> -- Aluna da DIO.</p>
+    </footer>
+</body>
+</html>
